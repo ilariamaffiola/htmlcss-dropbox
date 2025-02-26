@@ -82,7 +82,6 @@ main{
 }
 .tipo-pacchetto{
     width: 100%;
-    height: 8%;
     padding: 15px 0;
 }
 /*FOOTER*/
@@ -144,6 +143,9 @@ li , ul{
 }
 .txt-tur{
     color: #0061fe;
+}
+.txt-trans{
+    color: lightslategray;
 }
 
 /* Border */
