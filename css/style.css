@@ -1,7 +1,91 @@
-
-
 *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+    font-size: 17px;
+}
+
+/*HEADER*/
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+.container-header{
+    max-width: 1550px;
+    display: flex;
+    margin: 0 auto;
+}
+.right-col{
+    width: 50%;
+}
+.left-col{
+    width: 50%;
+}
+/*MAIN*/
+
+
+/*FOOTER*/
+
+
+
+/*COMMONS*/
+li , ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.btn{
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+}
+
+
+/*UTILS*/
+/* backgroud-colors */
+.bg-color{
+    background-color: #0061fe;
+}
+
+/* colors */
+.txt-whi{
+    color: white;
+}
+
+/* Border */
+.border-1px-solid-bk{
+    border: 1px solid black;
+}
+/* text-align */
+.text-align-rght{
+    text-align: right
+}
+
+/* heights */
+.h-90{
+    height: 90px;
+}
+/*padding*/
+.pad-xy-15{
+    padding: 15px 0;
+}
+.pad-top-15{
+    padding-top: 15px;
+}
+.pad-lf-rh-35{
+    padding-left: 35px;
+    padding-right: 17px;
+}
+.pad-rh-lf-10-17{
+    padding-right: 10px;
+    padding-left: 17px;
+}
+/* Flex-box */
+.al-items-cntr{
+    align-items: center;
+}
+.inline-block{
+    display: inline-block;
 }
