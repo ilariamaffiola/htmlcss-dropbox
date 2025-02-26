@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Open Sans", serif;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 /*HEADER*/
@@ -13,7 +13,7 @@ header{
     z-index: 4;
 }
 .container-header{
-    max-width: 1550px;
+    max-width: 1800px;
     display: flex;
     margin: 0 auto;
 }
@@ -23,8 +23,46 @@ header{
 .left-col{
     width: 50%;
 }
-/*MAIN*/
+.logo-drop{
+    width: 110px;
+    padding-left: 10px;
+}
 
+/*JUMBO*/
+.container-jumbotron{
+    max-width: 1136px;
+    display: flex;
+    margin: 0 auto;
+}
+h1{
+    font-size: 70px;
+}
+.title{
+    height: 200px;
+    width: 100%;
+
+}
+.col-txt{
+    width: 40%;
+    height: 345px;
+}
+.col-img{
+    width: 60%;
+    height: 400px;
+}
+.img-jumbo{
+    width: 696px;
+    height: 407px;
+}
+/*MAIN*/
+main{
+    padding-top: 60px;
+}
+.container-main{
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto; 
+}
 
 /*FOOTER*/
 
@@ -36,16 +74,31 @@ li , ul{
     display: inline-block;
 }
 .btn{
-    padding-top: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 8px;
+}
+.dec-none{
+    text-decoration: none;
 }
 
 
 /*UTILS*/
 /* backgroud-colors */
-.bg-color{
+.bg-color-red{
+    background-color: red;
+}
+.bg-color-jumb{
+    background-color: #b4d0e6; 
+}
+.bg-color-green{
+    background-color: green;
+}
+.bg-color-gold{
+    background-color: gold;
+}
+.bg-color-tur{
     background-color: #0061fe;
 }
 
@@ -53,19 +106,51 @@ li , ul{
 .txt-whi{
     color: white;
 }
+.txt-blk{
+    color: black;
+}
 
 /* Border */
 .border-1px-solid-bk{
     border: 1px solid black;
 }
+
+/* margin */
+.margin-top-25{
+    margin-top: 25px;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.margin-top-165{
+    margin-top: 165px;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
 /* text-align */
 .text-align-rght{
     text-align: right
 }
 
+/* font-size */
+.font-50{
+    font-size: 50px;
+}
+.font-30{
+    font-size: 30px;
+}
+
 /* heights */
 .h-90{
     height: 90px;
+}
+.h-600{
+    height: 600px;
+}
+.h-630{
+    height: 630px;
 }
 /*padding*/
 .pad-xy-15{
@@ -73,6 +158,12 @@ li , ul{
 }
 .pad-top-15{
     padding-top: 15px;
+}
+.pad-top-35{
+    padding-top: 35px;
+}
+.pad-top-60{
+    padding-top: 60px;
 }
 .pad-lf-rh-35{
     padding-left: 35px;
@@ -82,10 +173,19 @@ li , ul{
     padding-right: 10px;
     padding-left: 17px;
 }
+.pad-lft-35{
+    padding-left: 35px;
+}
 /* Flex-box */
 .al-items-cntr{
     align-items: center;
 }
 .inline-block{
     display: inline-block;
+}
+.block{
+    display: block;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
