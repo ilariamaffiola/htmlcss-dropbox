@@ -59,7 +59,7 @@ main{
     padding-top: 60px;
 }
 .container-main{
-    max-width: 1000px;
+    max-width: 1080px;
     display: flex;
     margin: 0 auto; 
 }
@@ -82,7 +82,8 @@ main{
 }
 .tipo-pacchetto{
     width: 100%;
-    height: 10%;
+    height: 8%;
+    padding: 15px 0;
 }
 /*FOOTER*/
 
@@ -101,6 +102,15 @@ li , ul{
 }
 .dec-none{
     text-decoration: none;
+}
+
+.btn-gratis{
+    padding: 10px 30px;
+}
+.line{
+    width: 70px;
+    height: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 
@@ -132,10 +142,16 @@ li , ul{
 .txt-blk{
     color: black;
 }
+.txt-tur{
+    color: #0061fe;
+}
 
 /* Border */
 .border-1px-solid-bk{
     border: 1px solid black;
+}
+.border-bottom-1px{
+    border-bottom: 1px solid black;
 }
 
 /* margin */
@@ -151,10 +167,16 @@ li , ul{
 .margin-bottom-30{
     margin-bottom: 30px;
 }
+.margin-42-20{
+    margin: 42px 20px;   
+}
 
 /* text-align */
 .text-align-rght{
     text-align: right
+}
+.text-cent{
+    text-align: center;
 }
 
 /* font-size */
@@ -163,6 +185,9 @@ li , ul{
 }
 .font-30{
     font-size: 30px;
+}
+.font-17{
+    font-size: 17px;
 }
 /* widths */
 .width-100{
@@ -181,8 +206,8 @@ li , ul{
 .h-600{
     height: 600px;
 }
-.h-680{
-    height: 680px;
+.h-1080{
+    height: 1080px;
 }
 .h-630{
     height: 630px;
@@ -197,6 +222,12 @@ li , ul{
 .pad-xy-15{
     padding: 15px 0;
 }
+.pad-top-5{
+    padding-top: 5px;
+}
+.pad-top-10{
+    padding-top: 10px;
+}
 .pad-top-15{
     padding-top: 15px;
 }
@@ -205,6 +236,12 @@ li , ul{
 }
 .pad-top-60{
     padding-top: 60px;
+}
+.pad-top-45{
+    padding-top: 45px;
+}
+.pad-bottom-45{
+    padding-bottom: 45px;
 }
 .pad-lf-rh-35{
     padding-left: 35px;
@@ -217,9 +254,17 @@ li , ul{
 .pad-lft-35{
     padding-left: 35px;
 }
+.pad-rh-10{
+    padding-right: 10px;
+}
+
+
 /* Flex-box */
 .al-items-cntr{
     align-items: center;
+}
+.jus-centr{
+    justify-content: center;
 }
 .inline-block{
     display: inline-block;
@@ -236,6 +281,7 @@ li , ul{
 .space-bet{
     justify-content: space-between;
 }
+
 .gap-20{
     gap: 20px;
 }
