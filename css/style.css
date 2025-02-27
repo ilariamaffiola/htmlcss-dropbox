@@ -90,6 +90,13 @@ main{
 .col-team-right{
     width: 30%;
 }
+/*Second layout*/
+.col-60{
+    width: 60%;
+}
+.col-40{
+    width: 40%;
+}
 /*FOOTER*/
 
 
@@ -221,6 +228,9 @@ li , ul{
 .h-1080{
     height: 1080px;
 }
+.min-h-1080{
+    min-height: 1080px;
+}
 .h-630{
     height: 630px;
 }
@@ -230,6 +240,7 @@ li , ul{
 .h-1500{
     height: 1500px;
 }
+
 /*padding*/
 .pad-xy-15{
     padding: 15px 0;
