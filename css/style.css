@@ -97,6 +97,10 @@ main{
 .col-40{
     width: 35%;
 }
+/*Thrd layout*/
+.card{
+    width: 30%;
+}
 /*FOOTER*/
 
 
@@ -205,12 +209,18 @@ li , ul{
 .font-30{
     font-size: 27px;
 }
+.font-35{
+    font-size: 35px;
+}
 .font-17{
     font-size: 17px;
 }
 /* widths */
 .width-100{
     width: 100%;
+}
+.width-1080{
+    width: 1080px;
 }
 /* heights */
 .h-90{
@@ -224,6 +234,9 @@ li , ul{
 }
 .h-600{
     height: 600px;
+}
+.h-900{
+    height: 900px;
 }
 .h-1080{
     height: 1080px;
