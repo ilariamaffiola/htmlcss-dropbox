@@ -101,6 +101,10 @@ main{
 .card{
     width: 30%;
 }
+/*Fourth lay*/
+.col-only{
+    width: 60%;
+}
 /*FOOTER*/
 
 
@@ -228,6 +232,9 @@ li , ul{
 }
 .h-100{
     height: 100px;
+}
+.h-300{
+    height: 300px;
 }
 .h-40perc{
     height: 44%;
