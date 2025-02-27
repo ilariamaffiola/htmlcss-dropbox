@@ -190,6 +190,9 @@ header li , ul{
 .border-bottom-1px{
     border-bottom: 1px solid black;
 }
+.border-1px-solid-lghtgrey{
+    border: 1px solid lightgrey;
+}
 
 /* margin */
 .margin-top-25{
