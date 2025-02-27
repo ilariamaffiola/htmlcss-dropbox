@@ -109,10 +109,16 @@ main{
 .col-15{
     width: 15%;
 }
-
+footer ul , li{
+    list-style-type: none;
+    color: white;
+}
+footer li{
+    padding: 5px 0;
+}
 
 /*COMMONS*/
-li , ul{
+header li , ul{
     list-style-type: none;
     display: inline-block;
 }
