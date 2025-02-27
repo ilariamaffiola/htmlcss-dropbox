@@ -116,6 +116,11 @@ footer ul , li{
 footer li{
     padding: 5px 0;
 }
+.line-footer{
+    width: 145px;
+    height: 1px;
+    border: 1px solid white;
+}
 
 /*COMMONS*/
 header li , ul{
@@ -304,6 +309,9 @@ header li , ul{
 .pad-lf-rh-35{
     padding-left: 35px;
     padding-right: 17px;
+}
+.pad-lf-rh-5{
+    padding: 0 10px;
 }
 .pad-rh-lf-10-17{
     padding-right: 10px;
