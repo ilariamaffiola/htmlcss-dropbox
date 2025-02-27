@@ -106,7 +106,9 @@ main{
     width: 55%;
 }
 /*FOOTER*/
-
+.col-15{
+    width: 15%;
+}
 
 
 /*COMMONS*/
@@ -142,20 +144,18 @@ li , ul{
 .bg-color-wh{
     background-color: #fff;
 }
-.bg-color-red{
-    background-color: red;
-}
+
 .bg-color-jumb{
     background-color: #b4d0e6; 
 }
-.bg-color-green{
-    background-color: green;
-}
-.bg-color-gold{
-    background-color: gold;
-}
 .bg-color-tur{
     background-color: #0061fe;
+}
+.bg-color-bk{
+    background-color: black;
+}
+.bg-color-red{
+    background-color: red;
 }
 
 /* colors */
@@ -286,6 +286,9 @@ li , ul{
 .pad-top-60{
     padding-top: 60px;
 }
+.pad-top-100{
+    padding-top: 100px;
+}
 .pad-top-45{
     padding-top: 45px;
 }
@@ -320,6 +323,9 @@ li , ul{
 }
 .space-around{
     justify-content: space-around;
+}
+.space-evenly{
+    justify-content: space-evenly;
 }
 .inline-block{
     display: inline-block;
