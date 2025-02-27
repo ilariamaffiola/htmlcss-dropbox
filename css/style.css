@@ -27,6 +27,10 @@ header{
     width: 110px;
     padding-left: 10px;
 }
+.bold-hover:hover{
+    font-weight: bold;
+}
+
 
 /*JUMBO*/
 .container-jumbotron{
