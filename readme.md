@@ -7,3 +7,11 @@ Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel lay
 Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un pò con unità relative, senza però crearci nuove difficoltà, tanto meglio.
 Numero minimo di push: 17
 Buon lavoro!
+
+
+
+ecco alcuni bonus possibili una volta verificato di aver completato tutti i punti:
+Linkare la freccia del jumbotron in modo che porti alla sezione successiva della pagina
+Utilizzare vere checkbox nella sezione "piani", in modo che solo una per volta sia selezionabile
+Dropdown sulle voci di menù principale. Puoi ispirarti al sito reale.
+Ipotizzare una pagina interna del sito e svilupparla. Puoi ispirarti al sito reale.
